@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {  }
+    body { background: linear-gradient(160deg, #71c3b5 0%, #eaebf0 100%); }
+
+/* small helper */
+.card { @apply bg-green-200/90 backdrop-blur-md shadow-lg rounded-2xl p-6 }
